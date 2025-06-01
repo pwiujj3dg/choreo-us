@@ -6,10 +6,10 @@ const UUID = process.env.UUID || '6cef7c46-6daa-4b53-a46f-50a137868664'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   //
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ch.qsa.ddns-ip.net';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOTRkNDhmODcyODE4ZjBhM2QwOWFjOTFhMGMwOTU4MzUiLCJ0IjoiMTg3YjgxNjQtOGM0NS00ODkyLWE4ZGItNTkzODU5MTU3ZWVhIiwicyI6Ik1qVm1ZV016WkRNdE9XSTVPQzAwTjJReUxUaGpaR0V0WmpCaU9UVXdZVEZrWTJFNCJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
-const NAME = process.env.NAME || 'Choreo-US';
+const NAME = process.env.NAME || 'Choreo';
 
 // root route
 app.get("/", function(req, res) {
